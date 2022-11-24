@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fast-api-pg"
+version = "0.1.0"
+description = "fast api practice"
+authors = ["Your Name <imonhasans33@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fast_api_pg"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+uvicorn = "^0.20.0"
+fastapi = "^0.87.0"
+SQLAlchemy = "^1.4.44"
+SQLAlchemy-Utils = "^0.38.3"
+psycopg2 = "^2.9.5"
+alembic = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
